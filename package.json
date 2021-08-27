@@ -1,0 +1,24 @@
+{
+  "name": "wixy",
+  "version": "1.0.0",
+  "description": "this is social media site to do things that you like",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizzenalum1/wixy1.git"
+  },
+  "author": "ghanshyam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wizzenalum1/wixy1/issues"
+  },
+  "homepage": "https://github.com/Wizzenalum1/wixy1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
