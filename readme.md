@@ -7,6 +7,7 @@
 all the following steps have thier own individual commits so you can explore each step of the process.
 1. setup node, express, nodemon
 2. setup mvc file structure
+3. setup basic routing, static file path, seting the ejs engine and responding with that.
 
 
 ### 1. setup node, express, nodemon
@@ -48,7 +49,10 @@ we will following this structure will going to grow to much this is just start.
             │   └── _header.ejs
             └── user-profile.ejs
 ```
-
+### setup basic routing, static file path, seting the ejs engine and responding with that.
+routes are the address to accessing the application,
+static file path is set so that static files can be used directlly without mentioning the absolute or relative address to root.
+ejs engine will render the ejs formated files to html files.
 
 [nvm-more](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your-machine-in-a-flash-17babb7d5f1b)
 [nvm](https://github.com/nvm-sh/nvm)
