@@ -4,7 +4,7 @@ const port = 8000;
 
 const router = express.Router();
 const expressLayouts = require('express-ejs-layouts');
-
+const db = require('./configs/mongoose')
 
 // set the path to static files
 app.use(express.static('assets'));

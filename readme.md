@@ -63,6 +63,10 @@ routes are address to reach the specific action. to set good routing we going to
 [ejs-layout] helps us to efficiantly use ejs files and reuse the base code.
 partials are the reusable code that can be used multiple plces in ejs files.
 
+### 5. setup mongoose
+- this is the javascript wrapper for mongodb. and easy to use directolly without worrying about the mongodb.  [here](https://www.npmjs.com/package/mongoose) [official-site](https://mongoosejs.com/)
+
+
 
 
 
