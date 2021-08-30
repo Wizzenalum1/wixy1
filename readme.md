@@ -8,6 +8,7 @@ all the following steps have thier own individual commits so you can explore eac
 1. setup node, express, nodemon
 2. setup mvc file structure
 3. setup basic routing, static file path, seting the ejs engine and responding with that.
+4. setup the routes,controller to home, ejs-layout
 
 
 ### 1. setup node, express, nodemon
@@ -49,15 +50,27 @@ we will following this structure will going to grow to much this is just start.
             │   └── _header.ejs
             └── user-profile.ejs
 ```
-### setup basic routing, static file path, seting the ejs engine and responding with that.
+### 3.setup basic routing, static file path, seting the ejs engine and responding with that.
 routes are the address to accessing the application,
 static file path is set so that static files can be used directlly without mentioning the absolute or relative address to root.
-ejs engine will render the ejs formated files to html files.
+ejs engine will render the ejs formated files to html files.[setting-EJS](https://www.geeksforgeeks.org/use-ejs-as-template-engine-in-node-js/)
+
+you can visit localhost:8000/check.html when you are at this head in repo.
+
+### 4. setup the routes,controller to home, ejs-layout, partials
+controllers are set of actions that decide the responce.
+routes are address to reach the specific action. to set good routing we going to use routes.[about-routing](https://expressjs.com/en/guide/routing.html), [Router](https://expressjs.com/en/4x/api.html#router)
+[ejs-layout] helps us to efficiantly use ejs files and reuse the base code.
+partials are the reusable code that can be used multiple plces in ejs files.
+
+
+
+
 
 [nvm-more](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your-machine-in-a-flash-17babb7d5f1b)
 [nvm](https://github.com/nvm-sh/nvm)
 [nodemon](https://www.npmjs.com/package/nodemon)
 [express](https://expressjs.com/en/starter/installing.html)
 [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-
+[ejs-layout](https://www.npmjs.com/package/express-ejs-layouts)
 
