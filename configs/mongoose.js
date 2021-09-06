@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/developing-wixy', {useNewUrlParser: true}).
+mongoose.connect('mongodb://localhost:27017/wixy-developmet', {useNewUrlParser: true}).
 catch(err=> console.log(`*********MONGOOSE NOT CONNECTED************`, err));
 
 const db = mongoose.connection

@@ -9,7 +9,8 @@ all the following steps have thier own individual commits so you can explore eac
 2. setup mvc file structure
 3. setup basic routing, static file path, seting the ejs engine and responding with that.
 4. setup the routes,controller to home, ejs-layout
-
+5. setup mongoose
+6. post request to add the data in mongodb.
 
 ### 1. setup node, express, nodemon
 -[node] is back-end javascript runtime environment. basically this is the language in which this application is written.use[nvm] ([nvm-more]) to install any version of the node.
@@ -65,6 +66,14 @@ partials are the reusable code that can be used multiple plces in ejs files.
 
 ### 5. setup mongoose
 - this is the javascript wrapper for mongodb. and easy to use directolly without worrying about the mongodb.  [here](https://www.npmjs.com/package/mongoose) [official-site](https://mongoosejs.com/)
+
+### 6. post request to add the data in mongodb.
+1. you should know about request responce cylcle [here](https://www.codecademy.com/articles/request-response-cycle-static),[here-detailed](https://iq.opengenus.org/middlewares-in-express/)
+2. use the [urlencoder](http://expressjs.com/en/4x/api.html#express.urlencoded) to read the body of the request to read the data in query or params.
+3. create view for user profile, and form to take input to create user, 2 controller and routes for showing the user and creating the user.
+
+
+
 
 
 
